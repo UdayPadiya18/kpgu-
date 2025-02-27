@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <title>Welcome to Faculty of Engineering & Technology</title>
+    <style>
+        body {
+            margin: ;
+        }
+        .section{
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            width: 60%;
+            margin: 10rem auto 0 auto;
+        }
+        .section img{
+            height: 250px;
+        }
+       
+        
+        .section p{
+            color:rgb(11, 10, 10);
+            margin-right: 15px;
+        }
+        
+    </style>
+</head>
+<body >
+    
+    {% if messages %}
+        {% for message in messages %}
+            {% if message.tags == 'error' %}
+                <center><h4 style="color: firebrick;">{{ message }}</h4></center>
+            {% else %}
+                <center><h4 style="color: dodgerblue;">{{ message }}</h4></center>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    
+    
+    <h1 style="text-align: center; color: black;">Welcome to Faculty of Commerce & Management</h1>
+   
+<h4 style="font-size:35px;color: darkblue">Welcome To Krishna School of Commerce [KSC]</h4>
+<div class="section">
+    <div class="text">
+        <h2 style="color: blue">
+    Krishna School of Commerce [KSC]
+</h2>
+        <p style="font-size: 30px">
+            DR. RASHMI VYAS
+           <p style="font-size: 20px">
+             Director
+            <p style="font-size: 20px">
+             Krishna School of Commerce
+             [KSC]
+
+            
+        </div>
+        <img src="{% static 'img/ksc.jpg' %}" >
+    </p>
+    </p>
+    </p>
+</div>
+<h3 style="font-size:35px;color: darkblue"><center>Message from Director</h3>
+<p style="font-size:25px; line-height:20px">
+   Krishna School of Commerce (KSC) strives to inculcate discipline and character building along with serious pursuit of knowledge utilizing the advanced teaching practices and high moral standards.  Our institution not only pursues academic excellence but also motivates and empowers the students to be lifelong learners, critical thinkers and productive members of an ever changing global society.
+</p>
+
+<p style="font-size:25px; line-height:20px">
+    We take immense pride in the fact that our students receive the quality education.  This is made possible by following high standards of teaching and learning.  Our excellence is not just confined to the classroom; we are also notably active in conducting workshops, seminars, guest lectures, industrial visits and other co-curricular activities.  These activities expose students to aspects beyond curriculum, thus adding high value to their professional success. We follow “mentor system” under which each class is put into the multi-pronged web of a teacher.
+</p>
+<p style="font-size:25px; line-height:20px">
+    The core objective of Our Institution strives to inculcate discipline and character building along with serious pursuit of knowledge utilizing the most advanced teaching practices and high moral standards.
+</p>
+<p style="font-size:25px; line-height:20px">
+    Our aim is to develop highly competent knowledge leaders and entrepreneurs and make every effort to shape the students into responsible citizens.  Holistic training that goes beyond education is imparted to students through extra-curricular activities, skill enhancement programs and sports activities to develop them into all rounded persons.
+</p>
+<p style="font-size:25px; line-height:20px">
+    We aim to empower students to exercise their talents responsibly by leading a fulfilling life and making an active contribution towards social justice and common goal.
+</p>
+<p style="font-size:25px; line-height:20px">
+    I also laud the relentless efforts of our teachers for giving their best in bringing out the best in each student. But I would exhort the students to be always modest, humble and disciplined while being ready to expand the horizons of their knowledge and skills by dreaming big and working hard. Teamwork is the hallmark of KSC.
+</p>
+<p style="font-size:25px; line-height:20px">
+    I am very sure through collaborative effort we can achieve more to benefit our students who are the future leaders of tomorrow.
+</p>
+
+
+<h4 style="font-size:35px;color: darkblue">Department</h4>
+<p style="font-size:25px; line-height:20px; color:#800000">Department of B.Com</p>
+
+
+
+   
+<h4 style="font-size:35px;color: darkblue">Welcome To Krishna School of Business Management [KSBM]</h4>
+<div class="section">
+    <div class="text">
+        <h2 style="color: blue">
+    Krishna School of Business Management [KSBM]
+</h2>
+        <p style="font-size: 30px">
+            Dr. Pinakin Jaiswal
+           <p style="font-size: 20px">
+             Director
+            <p style="font-size: 20px">
+             Krishna School of Business Management
+             [KSBM]
+
+            
+        </div>
+        <img src="{% static 'img/ksbm.jpg' %}" >
+    </p>
+    </p>
+    </p>
+</div>
+<h3 style="font-size:35px;color: darkblue"><center>Message from Director</h3>
+<p style="font-size:25px; line-height:20px">
+   A warm welcome to Krishna School of Business Management (KSBM) a constituent school of KPGU!
+</p>
+
+<p style="font-size:25px; line-height:20px">
+    KPGU though a young university has a rich legacy of more than 18 years (erstwhile Babaria Institute) in the field of academics. KSBM aspires to be globally acclaimed a value-driven management school, recognized for excellence in teaching, research and outreach; promoting access and inclusion; collaborative and innovative culture; and prepare socially responsible global citizens.
+</p>
+<p style="font-size:25px; line-height:20px">
+    A blend of experienced academicians with curriculum that is aligned to industry relevant topics lies at foundation of our management programs. Pedagogical tools that encompass case studies, lectures by industry experts and visits to industry strengthen a student’s perspective and help the school in achieving its cherished mission of preparing future managers. The students’ summer internship program is aimed at buttressing the learning of student in the class with gaining experience while working with industry.
+</p>
+<p style="font-size:25px; line-height:20px">
+    In order to quench the entrepreneurial thirst of aspiring students, the centre of excellence for Startups and Entrepreneurship provides mentoring support and financial assistance to eligible student startups. So be it your desire for making a corporate career or starting your own business, KSBM is the place to be in!
+</p>
+<p style="font-size:25px; line-height:20px">
+    Come and shape your dreams at KPGU !
+</p>
+
+
+
+<h4 style="font-size:35px;color: darkblue">Department</h4>
+<p style="font-size:25px; line-height:20px; color:#800000">Department of B.B.A </p>
+
+
+</body>
+</html>
