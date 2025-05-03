@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSET - Krishna School of Emerging Technology</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        h4, h3 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        .school-section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .school-text {
+            flex: 1 1 60%;
+        }
+
+        .school-text h2 {
+            color: #0033cc;
+            margin-bottom: 10px;
+        }
+
+        .school-text p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .school-image {
+            flex: 1 1 35%;
+        }
+
+        .school-image img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .message-section {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.08);
+        }
+
+        .message-section p {
+            font-size: 20px;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .departments {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.08);
+        }
+
+        .departments p {
+            font-size: 20px;
+            color: #800000;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h4 style="font-size:35px;">Welcome To Krishna School of Emerging Technology & Applied Research (KSET)</h4>
+
+    <div class="school-section">
+        <div class="school-text">
+            <h2>Krishna School of Emerging Technology & Applied Research (KSET)</h2>
+            <p><strong>Dr. Nandini M. Chaudhari</strong></p>
+            <p>Director</p>
+            <p>Krishna School of Emerging Technology & Applied Research [KSET]</p>
+        </div>
+        <div class="school-image">
+            <img src="{% static 'img/kset.jpg' %}" alt="KSET Image">
+        </div>
+    </div>
+
+    <h3 style="font-size:35px;">Message from Director</h3>
+
+    <div class="message-section">
+        <p>Dear Students, Faculty, and Esteemed Colleagues,</p>
+
+        <p>Welcome to Krishna School of Emerging Technology and Applied Research (KSET), a constituent institute of Drs. Kiran and Pallavi Patel Global University, Vadodara, Gujarat, INDIA, where the pursuit of knowledge and the passion for innovation converge to shape the future. As the Director of this esteemed institution, it is both an honor and a privilege to extend a warm greeting to all members of our vibrant academic community.</p>
+
+        <p>Our institute stands at the forefront of engineering education, driven by a commitment to excellence and a dedication to nurturing the next generation of leaders and innovators. We believe that engineering is not merely a field of study, but a gateway to transforming ideas into reality and solving the complex challenges of our world.</p>
+
+        <p>At KSET, we offer more than just a curriculum; we provide an environment that fosters creativity, critical thinking, and collaboration. Our world-class faculty, state-of-the-art facilities, and robust industry connections ensure that our students receive a comprehensive education that prepares them for the dynamic demands of the engineering profession.</p>
+
+        <p>We emphasize a holistic approach to learning, combining rigorous academic instruction with hands-on experience and real-world applications. Our strong industry ties and research initiatives provide our students with unparalleled opportunities to engage in groundbreaking projects and make meaningful contributions to their fields of interest. Our institute’s values are grounded in integrity, innovation, and excellence, and we strive to uphold these principles in all that we do.</p>
+
+        <p>As we move forward, our focus remains on continuously evolving our programs and resources to stay ahead of emerging trends and technologies. We are excited about the future and the endless possibilities that lie ahead for our students, faculty, and the engineering profession as a whole.</p>
+
+        <p>Thank you for being a part of the KSET family. Together, let us embark on this journey of discovery, learning, and growth, and make a positive impact on the world.</p>
+
+        <p>With best regards,</p>
+        <p>Director</p>
+    </div>
+
+    <h4 style="font-size:35px;">Department</h4>
+
+    <div class="departments">
+        <p>Department of Computer Science & Engineering</p>
+        <p>Department of Information Technology</p>
+        <p>Department of Mechanical Engineering</p>
+        <p>Department of Civil Engineering</p>
+    </div>
+
+</body>
+</html>

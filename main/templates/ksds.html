@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSET - Krishna School of Emerging Technology</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        h4, h3 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        .school-section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .school-text {
+            flex: 1 1 60%;
+        }
+
+        .school-text h2 {
+            color: #0033cc;
+            margin-bottom: 10px;
+        }
+
+        .school-text p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .school-image {
+            flex: 1 1 35%;
+        }
+
+        .school-image img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .message-section {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.08);
+        }
+
+        .message-section p {
+            font-size: 20px;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .departments {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.08);
+        }
+
+        .departments p {
+            font-size: 20px;
+            color: #800000;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h4 style="font-size:35px;">Welcome To Krishna School of Diploma Studies [KSDS]</h4>
+
+    <div class="school-section">
+        <div class="school-text">
+            <h2>Krishna School of Diploma Studies [KSDS]</h2>
+            <p><strong>Dr. Dattesh Y. Joshi</strong></p>
+            <p>Director</p>
+            <p>Krishna School of Diploma Studies [KSDS]</p>
+        </div>
+        <div class="school-image">
+            <img src="{% static 'img/ksds.jpg' %}" alt="KSDS Image">
+        </div>
+    </div>
+
+    <h3 style="font-size:35px;">Message from Director</h3>
+
+     <div class="message-section">
+    <p>
+        Welcome to the esteemed Krishna School of Diploma Studies (KSDS) at Drs. Kiran & Pallavi Patel Global University
+        (KPGU), Vadodara.
+        As the Director, I am honoured to lead our dedicated team in fostering academic excellence and innovation.
+    </p>
+
+    <p>
+        Our holistic approach to learning imparts technical knowledge alongside critical thinking and problem-solving
+        skills.
+        Our experienced faculty ensures students are well-equipped for the dynamic engineering landscape.
+    </p>
+    <p>
+        Through cutting-edge curricula, labs, and industry collaborations, we offer a transformative educational
+        experience that prepares students for leadership roles.
+    </p>
+    <p>
+        Committed to values of integrity and inclusivity, we provide a diverse and respectful environment. Our website
+        showcases programs, faculty, research, and campus life.
+    </p>
+    <p>
+        Whether you’re a student, parent, industry partner, or academician, we look forward to your engagement with us.
+    </p>
+    <p>
+        Thank you for considering Krishna School of Diploma Studies (KSDS), Drs. Kiran & Pallavi Patel Global University
+        (KPGU), Vadodara as your educational destination. Join us on a journey of knowledge and excellence.
+    </p>
+
+</div>
+
+    <h4 style="font-size:35px;">Department</h4>
+
+<div class="departments">
+    <p>Department of Computer Science & Engineering</p>
+    <p>Department of Information Technology</p>
+    <p>Department of Mechanical Engineering</p>
+    <p>Department of Civil Engineering</p>
+    <p>Department of Chemical Engineering</p>
+
+</div>
+
+</body>
+</html>
